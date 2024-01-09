@@ -1,0 +1,78 @@
+/* Admin.css */
+
+body {
+    font-family: Arial, sans-serif;
+   
+  }
+  
+  .container {
+    max-width: 800px;
+    padding: 20px;
+  }
+  
+  h2 {
+    text-align: center;
+    color: #333;
+  }
+  .buttonss {
+    margin-top: 50px;
+    margin-left: 34%;
+    align-items: center;
+  }
+  
+  button {
+    text-align: center;
+    margin-right: 10px;
+    padding: 8px 16px;
+    background-color: #6c3b1f;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #4f1e1e;
+  }
+
+  .channelT {
+  padding-left: 290px;
+  border: 1px solid grey;
+    display: flex;
+    text-align: center;
+    margin-left: 120px;
+    margin-right: 140px;
+
+  }
+
+  .c1, .c2, .c3 {
+    
+    padding-right: 40px;
+  }
+  
+  ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  li {
+    margin-left: 12px;
+    border: 1px solid rgb(149, 145, 145);
+    padding-left: 100px;
+    padding: 30px;
+    margin-bottom: 10px;
+  }
+  
+  li button {
+    background-color: #e74c3c;
+    color: #fff;
+    padding-top: 10px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  li button:hover {
+    background-color: #c0392b;
+  }
+  

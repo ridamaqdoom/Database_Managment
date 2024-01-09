@@ -1,0 +1,531 @@
+body {
+  font-family: 'Arial', sans-serif;
+  background-color:#f3d5b5;
+  margin: 0;
+  padding: 0;
+}
+
+.ribbon {
+  background-color: #583101;
+  padding: 1.2%;
+  text-align: center;
+}
+.ribbon  a {
+  display: inline-block;
+  font-family: "Sygme", sens-serif;
+  padding: 10px 20px;
+  font-size: 20px;
+  text-align: center;
+  text-decoration: none;
+  cursor: pointer;
+  color: #fff;
+  margin: 0 10px;
+  border-radius: 5px;
+  transition: background-color 0.3s, color 0.3s;
+}
+.ribbon a:hover {
+  transform: scale(1.1);
+  transition: transform 0.3s;
+  text-decoration: underline;
+
+}
+.Link {
+  display: inline-block;
+  font-family: "Sygme", sens-serif;
+  padding: 10px 20px;
+  font-size: 20px;
+  text-align: center;
+  text-decoration: none;
+  cursor: pointer;
+  color: #fff;
+  margin: 0 10px;
+  border-radius: 5px;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.container {
+
+  max-width: 1200px;
+  margin: 0 auto;
+  text-align: center;
+  padding: 15px;
+  padding-top: 25px;
+}
+
+.container h1 {
+  font-size: 30px;
+  color: #333;
+  font-family: "Leky Calgria", 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.container p {
+  font-size: 22px;
+  color: #555;
+  margin-bottom: 22px;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+.box-container {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  margin-top: 5px;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+.box-container h2 {
+  font-size: 20px;
+  font-family: 'Times New Roman', Times, serif;
+}
+.box-container p {
+  font-size: 14px;
+  font-family: 'Times New Roman', Times, serif;
+}
+.box {
+  flex: 1;
+  padding: 50px;
+  text-align: center;
+  background-color: #bc8a5f;
+  transition: transform 0.3s;
+}
+.box-container a {
+  display: inline-block;
+  font-family: "Sygme", sens-serif;
+  font-size: 20px;
+  text-align: top;
+  text-decoration: none;
+  cursor: pointer;
+  color: black;
+
+  
+}
+
+.box:hover h2 {
+  transform: scale(1.2);
+  transition: transform 0.3s;
+}
+
+.button-container {
+  display: flex;
+  margin-top: 20px;
+  padding-left: 20px;
+ 
+}
+
+.button-container .button {
+  padding: 15px 30px;
+  font-size: 18px;
+  font-family: "Sygme", sens-serif;
+  text-decoration: none;
+  cursor: pointer;
+  color: black;
+  border-radius: 5px;
+  border: 1px solid #a47148;
+  margin: 0 10px; /* Add margin to create space between buttons */
+
+  transition: background-color 0.3s, color 0.3s;
+}
+.button-container .button:hover{
+  color: white;
+  background-color: #583101;
+}
+.foot {
+margin-top: 75px;}
+.footer{
+  background-color: #583101;
+  padding: 1%;
+  text-align: center;
+  color: white;
+
+}
+
+/* Registration page css*/
+.form {
+  max-width: 400px;
+  margin: 45px auto;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  
+}
+.registration h2 {
+  font-size: light;
+  text-align: center;
+  padding-bottom: 5px;
+  font-size: 29px;
+  color: black;
+  font-family: "Sygme", sens-serif;
+
+}
+
+
+.registration label, input {
+  display: block;
+  margin-bottom: 5px;
+  width: 100%;
+  box-sizing: border-box;
+  padding: 6px;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 17px;
+
+}
+
+.registration button {
+  padding: 15px 50px;
+  font-size: 18px;
+  font-family: "Sygme", sens-serif;
+  text-decoration: none;
+  cursor: pointer;
+  background-color: #643811;
+  color: black;
+  border-radius: 5px;
+  border: 1px solid #a47148;
+  margin: 0 10px; /* Add margin to create space between buttons */
+}
+
+.registration button:hover {
+  color: white;
+  background-color: #583101;}
+
+  .LinkContainer p{
+    display: inline-block;
+    margin-right: 10px;
+  }
+  
+  .LinkContainer a {
+    text-decoration: underline;
+    color: black;
+    font-size: bold; 
+  }
+  .LinkContainer a:hover {
+    transform: scale(1.1);
+    transition: transform 0.3s;
+
+  }
+
+  .login  button {
+    padding: 10px 50px;
+    font-size: 18px;
+    font-family: "Sygme", sens-serif;
+    text-decoration: none;
+    cursor: pointer;
+    background-color: #5a391c;
+    color: white;
+    border-radius: 5px;
+    border: 1px solid #a47148;
+    margin-top: 23px;
+    margin-bottom: 10px;
+  }
+
+  .login button:hover {
+    color: white;
+    background-color: #583101;}
+
+
+    .post-message{
+      max-width: 1300px;
+      margin: 20px auto;
+      padding: 40px;
+      border: 1px solid #ddd;
+      border-radius: 8px;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+      background-color: #ede0d4;
+    }
+    
+    .post-message  h2 {
+      font-family: "Sygme", sens-serif;
+      text-align: center;
+      font-size: 24px;
+      margin-bottom: 10px;
+      color: #333;
+    }
+    
+    .post-message p {
+      font-family: 'Times New Roman', Times, serif;
+      font-size: 19px;
+      line-height: 1.5;
+      color: #0a0a0a;
+    }
+    
+    .post-message  textarea {
+      width: 100%;
+      height: 100px;
+      margin: 10px 0;
+      padding: 8px;
+      border: 1px solid #ddd;
+      border-radius: 4px;
+      font-size: 14px;
+    }
+    
+    .post-message button {
+      background-color: #583101;
+      color: #fff;
+      padding: 10px 20px;
+      border: none;
+      border-radius: 4px;
+      cursor: pointer;
+      font-size: 16px;
+    }
+    
+    .post-message  button:hover {
+      background-color: #795528;}
+
+
+  .create-channel {
+        max-width: 1300px;
+        margin: 20px auto;
+        padding: 10px;
+        border: 1px solid #ddd;
+        border-radius: 8px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        background-color: #ede0d4;
+      }
+      
+   .create-channel h2 {
+        font-family: "Sygme", sens-serif;
+        text-align: center;
+        font-size: 24px;
+        margin-bottom: 10px;
+        color: #333;
+      }
+      
+ .create-channel p {
+        font-family: 'Times New Roman', Times, serif;
+        font-size: 19px;
+        line-height: 1.5;
+        color: #0a0a0a;
+      }
+      
+ .create-channel textarea {
+        width: 100%;
+        height: 100px;
+        margin: 10px 0;
+        padding: 8px;
+        border: 1px solid #ddd;
+        border-radius: 4px;
+        font-size: 14px;
+      }
+      
+.create-channel button {
+        background-color: #583101;
+        color: #fff;
+        padding: 10px 20px;
+        border: none;
+        border-radius: 4px;
+        cursor: pointer;
+        font-size: 16px;
+      }
+      
+ .create-channel button:hover {
+        background-color: #795528;}
+
+
+.view-channel-container{
+  max-width: 100%;
+  max-height: 100%;
+  margin: 10px;
+  display: flex;
+   
+}
+
+.view-channel {
+  flex: 1;
+  max-width:50%;
+ 
+  box-sizing: border-box;
+}
+
+.message-container {
+  padding-left: 0%;
+  margin-left: -27px;
+  flex: 2;
+  max-width: 50%;
+  box-sizing: border-box;
+}
+
+
+
+
+.view-channel h2{
+  text-align: left;
+  
+  font-size: xx-large;
+  font-weight: lighter;
+  font-family: 'Times New Roman', Times, serif;
+}
+       
+.view-channel ul {
+  align-items: left;
+  margin-left: -9%;
+  font-size: 20px;
+}
+.view-channel button{
+ font-size: 19px;
+ font-family: 'Times New Roman', Times, serif;
+  width: 70%;
+  padding: 30px;
+  background-color: #542e0d;
+  color: #fff;
+  text-align: left;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  margin-bottom: 3px;
+}
+
+
+
+.view-channel button:hover{
+  background-color: #a47148;
+}
+
+/* Add more styles as needed */
+
+.chat-area h2{
+  text-align: left;
+  font-size: xx-large;
+  font-weight: lighter;
+  font-family: 'Times New Roman', Times, serif;
+}
+.chat-area h3{
+  text-align: left;
+  font-size: x-large;
+  font-weight: lighter;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+.chat-area textarea{
+      width: 100%;
+      height: 100px;
+      margin: 7px 0;
+      padding: 2px;
+      border: 2px solid #484848;
+      background-color: #f2ede8;
+      border-radius: 4px;
+      font-size: 14px;
+}
+
+.button1{
+  font-size: 19px;
+ font-family: 'Times New Roman', Times, serif;
+  width: 30%;
+  padding: 16px;
+  font-size: large;
+  font-weight: lighter;
+  font-family: 'Times New Roman', Times, serif;
+  background-color: #542e0d;
+  color: #fff;
+  text-align: center;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  margin-bottom: 3px;
+}
+.button1:hover{
+  background-color: #a47148;
+}
+
+.message-containers {
+  border: 1px solid #4a3737;
+  padding: 10px;
+  margin-bottom: 10px;
+  border-radius: 8px;
+}
+
+/* Add styles for the username */
+.username {
+font-weight: bold;
+  font-family: 'Times New Roman', Times, serif;
+  color: black;
+}
+
+/* Add styles for the message content */
+.message-content {
+  font-size: x-large;
+  margin-top: 5px;
+  color: #555;
+  font-family: 'Times New Roman', Times, serif;
+}
+.remove ul{
+  list-style-type: none;
+}
+
+.reply-content {
+  margin-top: 5px;
+  color: #555;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+
+
+
+/* Add this to your existing CSS file or create a new one */
+
+/* Style for the "Reply" button */
+.nested-reply-button  {
+ display: flex 1;
+  padding: 5px 25px;
+  align-items: right;
+  background-color: #795528;
+  color:white;
+  font-size: small;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  margin-left: 85%;
+}
+
+
+.ab {
+  display: flex 1;
+  padding: 5px 25px;
+  align-items: right;
+  background-color: #a38b6d;
+  color:white;
+  font-size: small;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+ margin-right: 3px;
+}
+
+/* Style for the container of each reply */
+.reply-container {
+  margin-top: 10px;
+  padding: 10px;
+  border: 1px solid #dddddd;
+  border-radius: 5px;
+}
+
+/* Style for the nested reply container */
+.nested-reply-container {
+  margin-top: 5px;
+  padding: 5px;
+  border: 1px solid #dddddd;
+  border-radius: 5px;
+  margin-left: 20px; 
+}
+
+/* Style for the "Reply to this reply" button */
+
+
+/* Style for the textarea for nested replies */
+.nested-reply-textarea {
+  margin-top: 5px;
+  padding: 5px;
+  border: 1px solid #dddddd;
+  border-radius: 5px;
+  resize: vertical;
+  width: 100%;
+}
+
+/* Style for the "Post Nested Reply" button */
+
+/* styles.css */
+.uploaded-image {
+  max-width: 900px;
+  max-height: 220px;
+  width: auto;
+  height: auto;
+}
