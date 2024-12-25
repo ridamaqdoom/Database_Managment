@@ -1,11 +1,12 @@
 # Database Management
 
 
-#**🛠️** Interactive Programming Help Platform
-#**📖** Overview
+🛠️ Interactive Programming Help Platform
+
+📖 Overview
 Welcome to the Channel-Based Tool for Programming Issues! This project is designed to be a highly interactive platform where programmers can collaborate, ask questions, and provide solutions. Whether you're a beginner or an expert, this tool offers a structured environment to share and grow your programming knowledge.
 
-#**🚀** Key Features
+🚀 Key Features
 Channel Management:
 Create, view, and join discussion channels tailored to specific programming topics.
 
